@@ -11,7 +11,7 @@ const shoutHappy = () => {
 ReactDOM.render(
   <div>
     <SimpleComponent />
-    <SimplerComponent handleClick={undefined} />
+    <SimplerComponent handleClick={shoutHappy} />
   </div>,
   document.getElementById('root')
 );
