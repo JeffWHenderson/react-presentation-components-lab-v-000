@@ -17,3 +17,5 @@ class SimpleComponent extends React.Component {
     )
   }
 }
+
+export default SimpleComponent
